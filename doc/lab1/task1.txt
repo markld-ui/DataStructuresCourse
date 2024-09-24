@@ -1,0 +1,14 @@
+For the first code:
+Itter 0: i = 0; sum = 0
+Itter 1: i = 1; sum = 1.1000000000000001
+Itter 2: i = 2; sum = 3.5200000000000005
+Itter 3: i = 3; sum = 7.5130000000000017
+Itter 4: i = 4; sum = 13.369400000000004
+Itter 5: i = 5; sum = 21.421950000000010
+Itter 6: i = 6; sum = 32.051316000000014
+Itter 7: i = 7; sum = 45.692335700000022
+Itter 8: i = 8; sum = 62.841046180000035
+Itter 9: i = 9; sum = 84.062575399000053
+
+For the second code:
+i = 777; sum = 3.2624579394327844

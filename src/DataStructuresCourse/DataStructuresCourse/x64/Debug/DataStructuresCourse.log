@@ -1,0 +1,4 @@
+﻿  DataStructuresCourse.cpp
+C:\Users\thank\OneDrive\Рабочий стол\1\ТУСУР\2 курс\Data Structures\DataStructuresCourse\src\DataStructuresCourse\DataStructuresCourse\DataStructuresCourse.cpp(142,31): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+C:\Users\thank\OneDrive\Рабочий стол\1\ТУСУР\2 курс\Data Structures\DataStructuresCourse\src\DataStructuresCourse\DataStructuresCourse\DataStructuresCourse.cpp(175,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  DataStructuresCourse.vcxproj -> C:\Users\thank\OneDrive\Рабочий стол\1\ТУСУР\2 курс\Data Structures\DataStructuresCourse\src\DataStructuresCourse\x64\Debug\DataStructuresCourse.exe
