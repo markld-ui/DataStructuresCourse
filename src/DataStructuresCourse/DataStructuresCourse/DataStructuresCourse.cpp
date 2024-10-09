@@ -130,7 +130,7 @@ void Task1_FindPersonByLastName()
 
 
 //------
-static void BubleSort(double* array, int size)
+static void BubbleSort(double* array, int size)
 {
     int temp = 0;
     for (int i = 0; i < size - 1; i++)
@@ -443,6 +443,7 @@ int main()
     */
 
     // code 3
+    
     /*
     int a = 5;
     int& b = a;
@@ -469,7 +470,6 @@ int main()
     */
 
     // code 6 
-    /*
     int a = 5;
     int* pointer = &a;
 
@@ -481,7 +481,6 @@ int main()
     *pointer = 7;
     cout << "Value in a: " << a << endl;
     cout << "Value by pointer address: " << *pointer << endl;
-    */
 
     // code 7
     /*
@@ -592,7 +591,7 @@ int main()
     }
     cout << endl;
 
-    BubleSort(arrayB, 10);
+    BubbleSort(arrayB, 10);
 
     cout << "Sorted array of double:" << endl;
     for (int i = 0; i < 10; i++)
