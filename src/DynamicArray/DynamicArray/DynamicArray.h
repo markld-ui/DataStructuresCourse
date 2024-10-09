@@ -12,7 +12,7 @@ private:
 	int* _array;
 
 	//! \brief Фактор роста для изменения вместимости массива.
-	const float _growthFactor = 1.5;
+	const float _growthFactor = 2;
 
 public:
 
