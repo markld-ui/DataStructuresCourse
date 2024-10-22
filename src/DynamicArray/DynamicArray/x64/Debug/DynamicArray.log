@@ -1,2 +1,6 @@
-﻿  Labarotory_Work_1.cpp
+﻿  DynamicArray.cpp
+C:\Users\thank\OneDrive\Рабочий стол\1\ТУСУР\2 курс\Data Structures\DataStructuresCourse\src\DynamicArray\DynamicArray\Source Files\DynamicArray.cpp(53,26): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\thank\OneDrive\Рабочий стол\1\ТУСУР\2 курс\Data Structures\DataStructuresCourse\src\DynamicArray\DynamicArray\Source Files\DynamicArray.cpp(84,26): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+  Labarotory_Work_1.cpp
+  Создание кода...
   DynamicArray.vcxproj -> C:\Users\thank\OneDrive\Рабочий стол\1\ТУСУР\2 курс\Data Structures\DataStructuresCourse\src\DynamicArray\x64\Debug\DynamicArray.exe

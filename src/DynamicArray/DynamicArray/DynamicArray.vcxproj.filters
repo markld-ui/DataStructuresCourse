@@ -15,15 +15,15 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="DynamicArray.cpp">
+    <ClCompile Include="Source Files\Labarotory_Work_1.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="Labarotory_Work_1.cpp">
+    <ClCompile Include="Source Files\DynamicArray.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="DynamicArray.h">
+    <ClInclude Include="Header Files\DynamicArray.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
   </ItemGroup>

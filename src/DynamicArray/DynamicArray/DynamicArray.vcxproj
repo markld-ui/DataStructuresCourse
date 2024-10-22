@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{c549f072-718f-4819-9584-14f130b8d318}</ProjectGuid>
+    <ProjectGuid>{ffadf24d-7609-4a10-8298-12167b308387}</ProjectGuid>
     <RootNamespace>DynamicArray</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
@@ -104,6 +104,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\Users\thank\OneDrive\Рабочий стол\1\ТУСУР\2 курс\Data Structures\DataStructuresCourse\src\DynamicArray\DynamicArray\Header Files;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -127,11 +128,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="DynamicArray.cpp" />
-    <ClCompile Include="Labarotory_Work_1.cpp" />
+    <ClCompile Include="Source Files\DynamicArray.cpp" />
+    <ClCompile Include="Source Files\Labarotory_Work_1.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="DynamicArray.h" />
+    <ClInclude Include="Header Files\DynamicArray.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
