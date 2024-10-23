@@ -23,11 +23,13 @@
     <ClCompile Include="Source Files\ListItem.cpp" />
     <ClCompile Include="Source Files\ListMenu.cpp" />
     <ClCompile Include="Source Files\Main.cpp" />
+    <ClCompile Include="Source Files\Testing.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Header Files\List.h" />
     <ClInclude Include="Header Files\ListItem.h" />
     <ClInclude Include="Header Files\ListMenu.h" />
+    <ClInclude Include="Header Files\Testing.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>

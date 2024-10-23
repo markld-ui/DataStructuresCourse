@@ -7,8 +7,8 @@
 struct DoublyLinkedList
 {
 private:
-    Node* head; //!< Указатель на первый узел списка.
-    Node* tail; //!< Указатель на последний узел списка.
+    Node* _head; //!< Указатель на первый узел списка.
+    Node* _tail; //!< Указатель на последний узел списка.
 
 public:
     //! \brief Конструктор для создания пустого двусвязного списка.
@@ -19,40 +19,43 @@ public:
 
     //! \brief Добавляет значение в конец списка.
     //! \param value Значение, которое будет добавлено.
-    void add(int value);
+    void Add(int value);
 
     //! \brief Удаляет узел со значением value из списка.
     //! \param value Значение узла, который нужно удалить.
-    void remove(int value);
+    void Remove(int value);
 
     //! \brief Вставляет значение в начало списка.
     //! \param value Значение, которое будет вставлено.
-    void insertAtBeginning(int value);
+    void InsertAtBeginning(int value);
 
     //! \brief Вставляет значение в конец списка.
     //! \param value Значение, которое будет вставлено.
-    void insertAtEnd(int value);
+    void InsertAtEnd(int value);
 
     //! \brief Вставляет значение после узла с заданным значением.
     //! \param afterValue Значение узла, после которого будет вставлено новое значение.
     //! \param value Значение, которое будет вставлено.
-    void insertAfter(int afterValue, int value);
+    void InsertAfter(int afterValue, int value);
 
     //! \brief Вставляет значение перед узлом с заданным значением.
     //! \param beforeValue Значение узла, перед которым будет вставлено новое значение.
     //! \param value Значение, которое будет вставлено.
-    void insertBefore(int beforeValue, int value);
+    void InsertBefore(int beforeValue, int value);
 
     //! \brief Сортирует список.
-    void sort();
+    void Sort();
 
     //! \brief Выполняет линейный поиск узла со значением value.
     //! \param value Значение, которое нужно найти.
-    //! \return Указатель на узел с найденным значением или nullptr, если не найдено.
-    Node* linearSearch(int value);
+    //! \return Индекс элемента либо -1, если не найдено.
+    int LinearSearch(int value);
 
-    //! \brief Печатает содержимое списка.
-    void printList();
+    //! \brief Геттер указателя на первый узел списка
+    Node* getHead() const { return _head; }
 };
+
+//! \brief Печатает содержимое списка.
+void PrintList(const DoublyLinkedList& list);
 
 #endif

@@ -3,28 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\thank\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\1\\\u0422\u0423\u0421\u0423\u0420\\2 \u043A\u0443\u0440\u0441\\Data Structures\\DataStructuresCourse\\src\\LinkedList\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{52C04A0D-8D38-491E-8226-E61F4E75C4DE}|LinkedList\\LinkedList.vcxproj|C:\\Users\\thank\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\1\\\u0422\u0423\u0421\u0423\u0420\\2 \u043A\u0443\u0440\u0441\\Data Structures\\DataStructuresCourse\\src\\LinkedList\\LinkedList\\Source Files\\ListMenu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{52C04A0D-8D38-491E-8226-E61F4E75C4DE}|LinkedList\\LinkedList.vcxproj|solutionrelative:LinkedList\\Source Files\\ListMenu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{52C04A0D-8D38-491E-8226-E61F4E75C4DE}|LinkedList\\LinkedList.vcxproj|C:\\Users\\thank\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\1\\\u0422\u0423\u0421\u0423\u0420\\2 \u043A\u0443\u0440\u0441\\Data Structures\\DataStructuresCourse\\src\\LinkedList\\LinkedList\\Header Files\\List.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{52C04A0D-8D38-491E-8226-E61F4E75C4DE}|LinkedList\\LinkedList.vcxproj|solutionrelative:LinkedList\\Header Files\\List.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52C04A0D-8D38-491E-8226-E61F4E75C4DE}|LinkedList\\LinkedList.vcxproj|C:\\Users\\thank\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\1\\\u0422\u0423\u0421\u0423\u0420\\2 \u043A\u0443\u0440\u0441\\Data Structures\\DataStructuresCourse\\src\\LinkedList\\LinkedList\\Source Files\\List.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{52C04A0D-8D38-491E-8226-E61F4E75C4DE}|LinkedList\\LinkedList.vcxproj|solutionrelative:LinkedList\\Source Files\\List.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{52C04A0D-8D38-491E-8226-E61F4E75C4DE}|LinkedList\\LinkedList.vcxproj|C:\\Users\\thank\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\1\\\u0422\u0423\u0421\u0423\u0420\\2 \u043A\u0443\u0440\u0441\\Data Structures\\DataStructuresCourse\\src\\LinkedList\\LinkedList\\Header Files\\ListItem.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{52C04A0D-8D38-491E-8226-E61F4E75C4DE}|LinkedList\\LinkedList.vcxproj|solutionrelative:LinkedList\\Header Files\\ListItem.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{52C04A0D-8D38-491E-8226-E61F4E75C4DE}|LinkedList\\LinkedList.vcxproj|C:\\Users\\thank\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\1\\\u0422\u0423\u0421\u0423\u0420\\2 \u043A\u0443\u0440\u0441\\Data Structures\\DataStructuresCourse\\src\\LinkedList\\LinkedList\\Source Files\\ListItem.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{52C04A0D-8D38-491E-8226-E61F4E75C4DE}|LinkedList\\LinkedList.vcxproj|solutionrelative:LinkedList\\Source Files\\ListItem.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{52C04A0D-8D38-491E-8226-E61F4E75C4DE}|LinkedList\\LinkedList.vcxproj|C:\\Users\\thank\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\1\\\u0422\u0423\u0421\u0423\u0420\\2 \u043A\u0443\u0440\u0441\\Data Structures\\DataStructuresCourse\\src\\LinkedList\\LinkedList\\Header Files\\ListMenu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{52C04A0D-8D38-491E-8226-E61F4E75C4DE}|LinkedList\\LinkedList.vcxproj|solutionrelative:LinkedList\\Header Files\\ListMenu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{52C04A0D-8D38-491E-8226-E61F4E75C4DE}|LinkedList\\LinkedList.vcxproj|C:\\Users\\thank\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\1\\\u0422\u0423\u0421\u0423\u0420\\2 \u043A\u0443\u0440\u0441\\Data Structures\\DataStructuresCourse\\src\\LinkedList\\LinkedList\\Source Files\\ListMenu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{52C04A0D-8D38-491E-8226-E61F4E75C4DE}|LinkedList\\LinkedList.vcxproj|solutionrelative:LinkedList\\Source Files\\ListMenu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{52C04A0D-8D38-491E-8226-E61F4E75C4DE}|LinkedList\\LinkedList.vcxproj|C:\\Users\\thank\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\1\\\u0422\u0423\u0421\u0423\u0420\\2 \u043A\u0443\u0440\u0441\\Data Structures\\DataStructuresCourse\\src\\LinkedList\\LinkedList\\Source Files\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{52C04A0D-8D38-491E-8226-E61F4E75C4DE}|LinkedList\\LinkedList.vcxproj|solutionrelative:LinkedList\\Source Files\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{52C04A0D-8D38-491E-8226-E61F4E75C4DE}|LinkedList\\LinkedList.vcxproj|C:\\Users\\thank\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\1\\\u0422\u0423\u0421\u0423\u0420\\2 \u043A\u0443\u0440\u0441\\Data Structures\\DataStructuresCourse\\src\\LinkedList\\LinkedList\\Source Files\\List.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{52C04A0D-8D38-491E-8226-E61F4E75C4DE}|LinkedList\\LinkedList.vcxproj|solutionrelative:LinkedList\\Source Files\\List.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 239,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,79 +46,80 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "List.cpp",
-              "DocumentMoniker": "C:\\Users\\thank\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\1\\\u0422\u0423\u0421\u0423\u0420\\2 \u043A\u0443\u0440\u0441\\Data Structures\\DataStructuresCourse\\src\\LinkedList\\LinkedList\\Source Files\\List.cpp",
-              "RelativeDocumentMoniker": "LinkedList\\Source Files\\List.cpp",
-              "ToolTip": "C:\\Users\\thank\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\1\\\u0422\u0423\u0421\u0423\u0420\\2 \u043A\u0443\u0440\u0441\\Data Structures\\DataStructuresCourse\\src\\LinkedList\\LinkedList\\Source Files\\List.cpp",
-              "RelativeToolTip": "LinkedList\\Source Files\\List.cpp",
-              "ViewState": "AgIAAH4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-10-22T17:24:27.898Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ListMenu.h",
-              "DocumentMoniker": "C:\\Users\\thank\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\1\\\u0422\u0423\u0421\u0423\u0420\\2 \u043A\u0443\u0440\u0441\\Data Structures\\DataStructuresCourse\\src\\LinkedList\\LinkedList\\Header Files\\ListMenu.h",
-              "RelativeDocumentMoniker": "LinkedList\\Header Files\\ListMenu.h",
-              "ToolTip": "C:\\Users\\thank\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\1\\\u0422\u0423\u0421\u0423\u0420\\2 \u043A\u0443\u0440\u0441\\Data Structures\\DataStructuresCourse\\src\\LinkedList\\LinkedList\\Header Files\\ListMenu.h",
-              "RelativeToolTip": "LinkedList\\Header Files\\ListMenu.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-22T15:31:19.928Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "ListMenu.cpp",
-              "DocumentMoniker": "C:\\Users\\thank\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\1\\\u0422\u0423\u0421\u0423\u0420\\2 \u043A\u0443\u0440\u0441\\Data Structures\\DataStructuresCourse\\src\\LinkedList\\LinkedList\\Source Files\\ListMenu.cpp",
-              "RelativeDocumentMoniker": "LinkedList\\Source Files\\ListMenu.cpp",
-              "ToolTip": "C:\\Users\\thank\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\1\\\u0422\u0423\u0421\u0423\u0420\\2 \u043A\u0443\u0440\u0441\\Data Structures\\DataStructuresCourse\\src\\LinkedList\\LinkedList\\Source Files\\ListMenu.cpp",
-              "RelativeToolTip": "LinkedList\\Source Files\\ListMenu.cpp",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAGcAAABIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-10-22T15:31:46.495Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "ListItem.h",
               "DocumentMoniker": "C:\\Users\\thank\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\1\\\u0422\u0423\u0421\u0423\u0420\\2 \u043A\u0443\u0440\u0441\\Data Structures\\DataStructuresCourse\\src\\LinkedList\\LinkedList\\Header Files\\ListItem.h",
               "RelativeDocumentMoniker": "LinkedList\\Header Files\\ListItem.h",
               "ToolTip": "C:\\Users\\thank\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\1\\\u0422\u0423\u0421\u0423\u0420\\2 \u043A\u0443\u0440\u0441\\Data Structures\\DataStructuresCourse\\src\\LinkedList\\LinkedList\\Header Files\\ListItem.h",
               "RelativeToolTip": "LinkedList\\Header Files\\ListItem.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAGAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-22T14:22:40.923Z",
+              "WhenOpened": "2024-10-23T09:49:38.918Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "List.h",
               "DocumentMoniker": "C:\\Users\\thank\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\1\\\u0422\u0423\u0421\u0423\u0420\\2 \u043A\u0443\u0440\u0441\\Data Structures\\DataStructuresCourse\\src\\LinkedList\\LinkedList\\Header Files\\List.h",
               "RelativeDocumentMoniker": "LinkedList\\Header Files\\List.h",
               "ToolTip": "C:\\Users\\thank\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\1\\\u0422\u0423\u0421\u0423\u0420\\2 \u043A\u0443\u0440\u0441\\Data Structures\\DataStructuresCourse\\src\\LinkedList\\LinkedList\\Header Files\\List.h",
               "RelativeToolTip": "LinkedList\\Header Files\\List.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADkAAAAGAAAAAAAAAA==",
+              "ViewState": "AgIAACsAAAAAAAAAAAAAADYAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-22T14:22:21.963Z",
+              "WhenOpened": "2024-10-22T19:47:03.238Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ListMenu.h",
+              "DocumentMoniker": "C:\\Users\\thank\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\1\\\u0422\u0423\u0421\u0423\u0420\\2 \u043A\u0443\u0440\u0441\\Data Structures\\DataStructuresCourse\\src\\LinkedList\\LinkedList\\Header Files\\ListMenu.h",
+              "RelativeDocumentMoniker": "LinkedList\\Header Files\\ListMenu.h",
+              "ToolTip": "C:\\Users\\thank\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\1\\\u0422\u0423\u0421\u0423\u0420\\2 \u043A\u0443\u0440\u0441\\Data Structures\\DataStructuresCourse\\src\\LinkedList\\LinkedList\\Header Files\\ListMenu.h",
+              "RelativeToolTip": "LinkedList\\Header Files\\ListMenu.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-23T09:49:44.958Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Main.cpp",
-              "DocumentMoniker": "C:\\Users\\thank\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\1\\\u0422\u0423\u0421\u0423\u0420\\2 \u043A\u0443\u0440\u0441\\Data Structures\\DataStructuresCourse\\src\\LinkedList\\LinkedList\\Source Files\\Main.cpp",
-              "RelativeDocumentMoniker": "LinkedList\\Source Files\\Main.cpp",
-              "ToolTip": "C:\\Users\\thank\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\1\\\u0422\u0423\u0421\u0423\u0420\\2 \u043A\u0443\u0440\u0441\\Data Structures\\DataStructuresCourse\\src\\LinkedList\\LinkedList\\Source Files\\Main.cpp",
-              "RelativeToolTip": "LinkedList\\Source Files\\Main.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAARAAAAAAAAAA==",
+              "Title": "ListItem.cpp",
+              "DocumentMoniker": "C:\\Users\\thank\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\1\\\u0422\u0423\u0421\u0423\u0420\\2 \u043A\u0443\u0440\u0441\\Data Structures\\DataStructuresCourse\\src\\LinkedList\\LinkedList\\Source Files\\ListItem.cpp",
+              "RelativeDocumentMoniker": "LinkedList\\Source Files\\ListItem.cpp",
+              "ToolTip": "C:\\Users\\thank\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\1\\\u0422\u0423\u0421\u0423\u0420\\2 \u043A\u0443\u0440\u0441\\Data Structures\\DataStructuresCourse\\src\\LinkedList\\LinkedList\\Source Files\\ListItem.cpp",
+              "RelativeToolTip": "LinkedList\\Source Files\\ListItem.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-10-22T14:21:04.559Z",
+              "WhenOpened": "2024-10-23T09:49:35.818Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "List.cpp",
+              "DocumentMoniker": "C:\\Users\\thank\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\1\\\u0422\u0423\u0421\u0423\u0420\\2 \u043A\u0443\u0440\u0441\\Data Structures\\DataStructuresCourse\\src\\LinkedList\\LinkedList\\Source Files\\List.cpp",
+              "RelativeDocumentMoniker": "LinkedList\\Source Files\\List.cpp",
+              "ToolTip": "C:\\Users\\thank\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\1\\\u0422\u0423\u0421\u0423\u0420\\2 \u043A\u0443\u0440\u0441\\Data Structures\\DataStructuresCourse\\src\\LinkedList\\LinkedList\\Source Files\\List.cpp",
+              "RelativeToolTip": "LinkedList\\Source Files\\List.cpp",
+              "ViewState": "AgIAAKIAAAAAAAAAAAAAALIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-22T20:54:43.977Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ListMenu.cpp",
+              "DocumentMoniker": "C:\\Users\\thank\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\1\\\u0422\u0423\u0421\u0423\u0420\\2 \u043A\u0443\u0440\u0441\\Data Structures\\DataStructuresCourse\\src\\LinkedList\\LinkedList\\Source Files\\ListMenu.cpp",
+              "RelativeDocumentMoniker": "LinkedList\\Source Files\\ListMenu.cpp",
+              "ToolTip": "C:\\Users\\thank\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\1\\\u0422\u0423\u0421\u0423\u0420\\2 \u043A\u0443\u0440\u0441\\Data Structures\\DataStructuresCourse\\src\\LinkedList\\LinkedList\\Source Files\\ListMenu.cpp",
+              "RelativeToolTip": "LinkedList\\Source Files\\ListMenu.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-22T19:35:09.21Z",
               "EditorCaption": ""
             }
           ]

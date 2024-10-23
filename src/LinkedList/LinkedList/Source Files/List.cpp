@@ -3,11 +3,11 @@
 
 using namespace std;
 
-DoublyLinkedList::DoublyLinkedList() : head(nullptr), tail(nullptr) {}
+DoublyLinkedList::DoublyLinkedList() : _head(nullptr), _tail(nullptr) {}
 
 DoublyLinkedList::~DoublyLinkedList()
 {
-	Node* current = head;
+	Node* current = _head;
 	while (current)
 	{
 		Node* next = current->next;
@@ -16,134 +16,164 @@ DoublyLinkedList::~DoublyLinkedList()
 	}
 }
 
-void DoublyLinkedList::add(int value)
+void DoublyLinkedList::Add(int value)
 {
 	Node* newNode = new Node(value);
-	if (!head)
+	if (!_head)
 	{
-		head = tail = newNode;
+		_head = _tail = newNode;
 	}
 	else
 	{
-		tail->next = newNode;
-		newNode->prev = tail;
-		tail = newNode;
+		_tail->next = newNode;
+		newNode->prev = _tail;
+		_tail = newNode;
 	}
 }
 
-void DoublyLinkedList::remove(int value)
+void DoublyLinkedList::Remove(int value)
 {
-	Node* current = head;
+	Node* current = _head;
 	while (current) 
 	{
-		if (current->data == value) {
-			if (current->prev) {
+		if (current->data == value) 
+		{
+			if (current->prev)
+			{
 				current->prev->next = current->next;
 			}
-			else {
-				head = current->next;
+			else
+			{
+				_head = current->next;
 			}
-			if (current->next) {
+			
+			if (current->next) 
+			{
 				current->next->prev = current->prev;
 			}
-			else {
-				tail = current->prev;
+			else 
+			{
+				_tail = current->prev;
 			}
+
 			delete current;
 			return;
 		}
+
 		current = current->next;
 	}
 }
 
-void DoublyLinkedList::insertAtBeginning(int value) {
+void DoublyLinkedList::InsertAtBeginning(int value) 
+{
 	Node* newNode = new Node(value);
-	if (head) {
-		newNode->next = head;
-		head->prev = newNode;
-		head = newNode;
+	if (_head) {
+		newNode->next = _head;
+		_head->prev = newNode;
+		_head = newNode;
 	}
-	else {
-		head = tail = newNode;
+	else 
+	{
+		_head = _tail = newNode;
 	}
 }
 
-void DoublyLinkedList::insertAtEnd(int value) {
-	add(value);
+void DoublyLinkedList::InsertAtEnd(int value)
+{
+	Add(value);
 }
 
-void DoublyLinkedList::insertAfter(int afterValue, int value) {
-	Node* current = head;
-	while (current) {
-		if (current->data == afterValue) {
+void DoublyLinkedList::InsertAfter(int afterValue, int value)
+{
+	Node* current = _head;
+	while (current) 
+	{
+		if (current->data == afterValue) 
+		{
 			Node* newNode = new Node(value);
 			newNode->next = current->next;
 			newNode->prev = current;
 
-			if (current->next) {
+			if (current->next) 
+			{
 				current->next->prev = newNode;
 			}
-			else {
-				tail = newNode;
+			else 
+			{
+				_tail = newNode;
 			}
+
 			current->next = newNode;
 			return;
 		}
+
 		current = current->next;
 	}
 }
 
-void DoublyLinkedList::insertBefore(int beforeValue, int value) {
-	Node* current = head;
-	while (current) {
-		if (current->data == beforeValue) {
-			if (current->prev) {
+void DoublyLinkedList::InsertBefore(int beforeValue, int value) 
+{
+	Node* current = _head;
+	while (current) 
+	{
+		if (current->data == beforeValue)
+		{
+			if (current->prev)
+			{
 				Node* newNode = new Node(value);
 				newNode->next = current;
 				newNode->prev = current->prev;
 				current->prev->next = newNode;
 				current->prev = newNode;
 			}
-			else {
-				insertAtBeginning(value);
+			else
+			{
+				InsertAtBeginning(value);
 			}
+
 			return;
 		}
+
 		current = current->next;
 	}
 }
 
-void DoublyLinkedList::sort() {
-	if (!head) return;
-	Node* current = head;
-	while (current) {
+void DoublyLinkedList::Sort() 
+{
+	if (!_head) return;
+	Node* current = _head;
+	while (current) 
+	{
 		Node* nextNode = current->next;
-		while (nextNode) {
-			if (current->data > nextNode->data) {
+		while (nextNode) 
+		{
+			if (current->data > nextNode->data)
+			{
 				swap(current->data, nextNode->data);
 			}
+
 			nextNode = nextNode->next;
 		}
+
 		current = current->next;
 	}
 }
 
-Node* DoublyLinkedList::linearSearch(int value) {
-	Node* current = head;
-	while (current) {
-		if (current->data == value) {
-			return current;
+int DoublyLinkedList::LinearSearch(int value) 
+{
+	Node* current = _head;
+	int index = 0;
+
+	while (current) 
+	{
+		if (current->data == value)
+		{
+			return index;
 		}
-		current = current->next;
-	}
-	return nullptr;
-}
 
-void DoublyLinkedList::printList() {
-	Node* current = head;
-	while (current) {
-		cout << current->data << " ";
 		current = current->next;
+		index++;
 	}
-	cout << endl;
+
+	return -1;
 }
