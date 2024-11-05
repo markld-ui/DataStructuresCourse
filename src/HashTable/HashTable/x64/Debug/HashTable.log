@@ -1,0 +1,7 @@
+﻿  Dictionary.cpp
+  HashTable.cpp
+  Main.cpp
+  Menu.cpp
+  Создание кода...
+C:\Users\thank\OneDrive\Рабочий стол\1\ТУСУР\2 курс\Data Structures\DataStructuresCourse\src\HashTable\HashTable\Source Files\Main.cpp(5,6): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+  HashTable.vcxproj -> C:\Users\thank\OneDrive\Рабочий стол\1\ТУСУР\2 курс\Data Structures\DataStructuresCourse\src\HashTable\x64\Debug\HashTable.exe
