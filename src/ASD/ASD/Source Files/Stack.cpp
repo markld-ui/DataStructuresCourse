@@ -34,7 +34,7 @@ int Pop(Stack* stack)
 	}
 }
 
-bool IsEmpty(Stack* stack)
+bool IsEmpty(const Stack* stack)
 {
 	return stack->Top == -1;
 }
@@ -45,4 +45,13 @@ void Delete(Stack* stack)
 	stack->Buffer = nullptr;
 	stack->Top = -1;
 	stack->BufferSize = 0;
+}
+
+void Resize(Stack* stack, int newSize)
+{
+	int* newBuffer = new int[newSize];
+	std::memcpy(newBuffer, stack->Buffer, stack->BufferSize * sizeof(int));
+	delete[] stack->Buffer;
+	stack->Buffer = newBuffer;
+	stack->BufferSize = newSize;
 }

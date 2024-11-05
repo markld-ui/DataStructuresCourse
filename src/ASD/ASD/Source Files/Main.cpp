@@ -1,10 +1,11 @@
 #include <iostream>
+#include "Menu.h"
 
 using namespace std;
 
 int main()
 {
 	setlocale(LC_ALL, "ru");
-	cout << "Main.cpp" << endl;
+	ShowMenu();
 	return 0;
 }
