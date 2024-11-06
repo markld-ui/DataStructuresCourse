@@ -49,6 +49,11 @@ void Delete(Stack* stack)
 
 void Resize(Stack* stack, int newSize)
 {
+	if (newSize <= 0)
+	{
+		throw std::invalid_argument("–азмер стека должен быть положительным.");
+	}
+
 	int* newBuffer = new int[newSize];
 	std::memcpy(newBuffer, stack->Buffer, stack->BufferSize * sizeof(int));
 	delete[] stack->Buffer;

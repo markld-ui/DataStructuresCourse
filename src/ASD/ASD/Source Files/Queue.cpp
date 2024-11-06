@@ -4,35 +4,39 @@
 
 void InitQueue(Queue* queue, size_t size) 
 {
-    InitBuffer(&(queue->buffer), size);
+    InitBuffer(queue->Buffer, size);
 }
 
 void FreeQueue(Queue* queue) 
 {
-    FreeBuffer(&(queue->buffer));
+    FreeBuffer(queue->Buffer);
 }
 
 void Enqueue(Queue* queue, int item) 
 {
-    Add(&(queue->buffer), item);
+    if (queue->Buffer != nullptr && (queue->Buffer->CurrentSize == queue->Buffer->MaxSize))
+    {
+        ResizeBuffer(queue->Buffer, static_cast<size_t>(queue->Buffer->MaxSize * queue->GrowthFactor));
+    }
+    Add(queue->Buffer, item);
 }
 
 int Dequeue(Queue* queue) 
 {
-    return Remove(&(queue->buffer));
+    return Remove(queue->Buffer);
 }
 
 bool IsQueueEmpty(const Queue* queue) 
 {
-    return queue->buffer.currentSize == 0;
+    return queue->Buffer->CurrentSize == 0;
 }
 
 size_t QueueFreeSpace(const Queue* queue)
 {
-    return FreeSpace(&(queue->buffer));
+    return FreeSpace(queue->Buffer);
 }
 
 size_t QueueOccupiedSpace(const Queue* queue) 
 {
-    return OccupiedSpace(&(queue->buffer));
+    return OccupiedSpace(queue->Buffer);
 }

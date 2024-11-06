@@ -2,12 +2,13 @@
 #define RINGBUFFER_H
 
 //! \brief Структура кольцевого буфера.
-struct RingBuffer {
-    int* buffer;          //!< Указатель на массив данных.
-    size_t maxSize;      //!< Максимальный размер буфера.
-    size_t head;          //!< Индекс начала буфера.
-    size_t tail;          //!< Индекс конца буфера.
-    size_t currentSize;  //!< Текущий размер буфера.
+struct RingBuffer 
+{
+    int* Buffer;          //!< Указатель на массив данных.
+    size_t MaxSize;      //!< Максимальный размер буфера.
+    size_t Head;          //!< Индекс начала буфера.
+    size_t Tail;          //!< Индекс конца буфера.
+    size_t CurrentSize;  //!< Текущий размер буфера.
 };
 
 

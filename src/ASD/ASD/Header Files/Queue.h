@@ -4,8 +4,10 @@
 #include "RingBuffer.h"
 
 //! \brief Структура очереди на основе кольцевого буфера.
-struct Queue {
-    RingBuffer buffer;      //!< Кольцевой буфер для хранения элементов очереди.
+struct Queue 
+{
+    RingBuffer* Buffer = new RingBuffer();                  //!< Кольцевой буфер для хранения элементов очереди.
+    const double GrowthFactor = 1.5;                        //!< growthFactor автоматического увелечения объёма очереди
 };
 
 //! \brief Инициализирует очередь.

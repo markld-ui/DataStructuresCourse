@@ -21,6 +21,13 @@ int GetIntegerInput()
     {
         if (cin >> value) 
         {
+            if (value < 0)
+            {
+                ClearInput();
+                cout << "Число не должно быть отрицательным. " << endl;
+                continue;
+            }
+
             cin.ignore(numeric_limits<streamsize>::max(), '\n');
             return value;
         }
@@ -35,7 +42,8 @@ void ShowStackMenu(Stack* stack)
 {
     int choice, value, newSize;
 
-    do {
+    do
+    {
         cout << "\nРабота со стеком:\n";
         cout << "1. Добавить элемент (Push)\n";
         cout << "2. Извлечь элемент (Pop)\n";
@@ -96,14 +104,16 @@ void ShowStackMenu(Stack* stack)
                 cout << "Некорректный выбор, попробуйте снова.\n";
         }
 
-    } while (choice != 0);
+    }
+    while (choice != 0);
 }
 
 void ShowRingBufferMenu(RingBuffer* rb) 
 {
     int choice, value, newSize;
 
-    do {
+    do 
+    {
         cout << "\nРабота с кольцевым буфером:\n";
         cout << "1. Добавить элемент\n";
         cout << "2. Извлечь элемент\n";
@@ -180,14 +190,16 @@ void ShowRingBufferMenu(RingBuffer* rb)
                 }
         }
 
-    } while (choice != 0);
+    } 
+    while (choice != 0);
 }
 
 void ShowQueueMenu(Queue* queue) 
 {
     int choice, value, newSize;
 
-    do {
+    do 
+    {
         cout << "\nРабота с очередью на основе кольцевого буфера:\n";
         cout << "1. Добавить элемент (Enqueue)\n";
         cout << "2. Извлечь элемент (Dequeue)\n";
@@ -243,7 +255,7 @@ void ShowQueueMenu(Queue* queue)
 
                 newSize = GetIntegerInput();
 
-                ResizeBuffer(&queue->buffer, newSize);
+                ResizeBuffer(queue->Buffer, newSize);
                 cout << "Размер очереди изменен на " << newSize << ".\n";
                 break;
             }
@@ -265,7 +277,8 @@ void ShowQueue2StacksMenu(Queue2Stacks* queue)
 {
     int choice, value, newSize;
 
-    do {
+    do 
+    {
         cout << "\nРабота с очередью на основе двух стеков:\n";
         cout << "1. Добавить элемент (Enqueue)\n";
         cout << "2. Извлечь элемент (Dequeue)\n";
@@ -312,8 +325,8 @@ void ShowQueue2StacksMenu(Queue2Stacks* queue)
 
                 newSize = GetIntegerInput();
 
-                Resize(&queue->stack1, newSize);
-                Resize(&queue->stack2, newSize);
+                Resize(&queue->Stack1, newSize);
+                Resize(&queue->Stack2, newSize);
                 cout << "Размер очереди изменен на " << newSize << ".\n";
                 break;
             }
@@ -328,7 +341,8 @@ void ShowQueue2StacksMenu(Queue2Stacks* queue)
             }
         }
 
-    } while (choice != 0);
+    } 
+    while (choice != 0);
 }
 
 void ShowMenu() 
@@ -344,7 +358,8 @@ void ShowMenu()
     InitQueue(&queue, bufferSize);
     InitQueue2Stacks(&queue2Stacks, stackSize);
 
-    do {
+    do
+    {
         cout << "\nОсновное меню:\n";
         cout << "1. Работа со стеком\n";
         cout << "2. Работа с кольцевым буфером\n";
@@ -388,7 +403,8 @@ void ShowMenu()
             }
         }
 
-    } while (choice != 0);
+    } 
+    while (choice != 0);
 
     Delete(&stack);
     FreeBuffer(&ringBuffer);
