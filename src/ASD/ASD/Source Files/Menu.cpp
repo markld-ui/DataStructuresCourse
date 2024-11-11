@@ -101,9 +101,10 @@ void ShowStackMenu(Stack* stack)
                     break;
                 }
             default:
-                cout << "Некорректный выбор, попробуйте снова.\n";
+                {
+                    cout << "Некорректный выбор, попробуйте снова.\n";
+                }
         }
-
     }
     while (choice != 0);
 }
@@ -189,7 +190,6 @@ void ShowRingBufferMenu(RingBuffer* rb)
                     cout << "Некорректный выбор, попробуйте снова.\n";
                 }
         }
-
     } 
     while (choice != 0);
 }
@@ -270,7 +270,8 @@ void ShowQueueMenu(Queue* queue)
             }
         }
 
-    } while (choice != 0);
+    } 
+    while (choice != 0);
 }
 
 void ShowQueue2StacksMenu(Queue2Stacks* queue) 
@@ -303,7 +304,8 @@ void ShowQueue2StacksMenu(Queue2Stacks* queue)
             }
         case 2:
             {
-                if (!IsQueue2StacksEmpty(queue)) {
+                if (!IsQueue2StacksEmpty(queue)) 
+                {
                     value = Dequeue2Stacks(queue);
                     cout << "Извлечен элемент: " << value << endl;
                 }

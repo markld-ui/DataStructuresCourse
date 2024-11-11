@@ -18,6 +18,7 @@ void Enqueue(Queue* queue, int item)
     {
         ResizeBuffer(queue->Buffer, static_cast<size_t>(queue->Buffer->MaxSize * queue->GrowthFactor));
     }
+
     Add(queue->Buffer, item);
 }
 
