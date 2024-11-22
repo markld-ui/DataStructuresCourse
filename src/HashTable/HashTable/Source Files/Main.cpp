@@ -1,9 +1,12 @@
+#include "Menu.h"
 #include <iostream>
-
 using namespace std;
 
-void main()
+int main() 
 {
-	setlocale(LC_ALL, "ru");
-	cout << "Hello World!" << endl;
+    setlocale(LC_ALL, "ru");
+
+    MenuController();
+
+    return 0;
 }

@@ -1,7 +1,9 @@
 ﻿  Dictionary.cpp
   HashTable.cpp
+C:\Users\thank\OneDrive\Рабочий стол\1\ТУСУР\2 курс\Data Structures\DataStructuresCourse\src\HashTable\HashTable\Source Files\HashTable.cpp(7,25): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\thank\OneDrive\Рабочий стол\1\ТУСУР\2 курс\Data Structures\DataStructuresCourse\src\HashTable\HashTable\Source Files\HashTable.cpp(56,14): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
   Main.cpp
   Menu.cpp
+C:\Users\thank\OneDrive\Рабочий стол\1\ТУСУР\2 курс\Data Structures\DataStructuresCourse\src\HashTable\HashTable\Source Files\Menu.cpp(25,17): error C3861: MenuFirstCase: идентификатор не найден
+C:\Users\thank\OneDrive\Рабочий стол\1\ТУСУР\2 курс\Data Structures\DataStructuresCourse\src\HashTable\HashTable\Source Files\Menu.cpp(29,17): error C3861: MenuSecondCase: идентификатор не найден
   Создание кода...
-C:\Users\thank\OneDrive\Рабочий стол\1\ТУСУР\2 курс\Data Structures\DataStructuresCourse\src\HashTable\HashTable\Source Files\Main.cpp(5,6): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
-  HashTable.vcxproj -> C:\Users\thank\OneDrive\Рабочий стол\1\ТУСУР\2 курс\Data Structures\DataStructuresCourse\src\HashTable\x64\Debug\HashTable.exe

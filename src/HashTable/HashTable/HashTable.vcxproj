@@ -21,11 +21,13 @@
   <ItemGroup>
     <ClInclude Include="Header Files\Dictionary.h" />
     <ClInclude Include="Header Files\HashTable.h" />
+    <ClInclude Include="Header Files\HashTableItem.h" />
     <ClInclude Include="Header Files\Menu.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source Files\Dictionary.cpp" />
     <ClCompile Include="Source Files\HashTable.cpp" />
+    <ClCompile Include="Source Files\HashTableItem.cpp" />
     <ClCompile Include="Source Files\Main.cpp" />
     <ClCompile Include="Source Files\Menu.cpp" />
   </ItemGroup>
